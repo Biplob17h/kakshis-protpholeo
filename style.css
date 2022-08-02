@@ -1,0 +1,141 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:antiquewhite;
+}
+.head{
+    display: flex;
+    margin-bottom: 8%;
+    /* background-image: url(images/top-banner.png); */
+    background-repeat: no-repeat;
+    
+}
+.head-text{
+    width: 50%;
+    padding: 5%;
+    background-color: antiquewhite;
+   
+}
+.head-text h1{
+    font-size: 60px;
+}
+.head-text span {
+    color: rgb(49, 2, 8);
+}
+.main{
+    display: flex;
+    margin-bottom: 8%;
+    /* background-image: url(images/top-banner.png); */
+    background-repeat: no-repeat;
+    
+}
+.main-text{
+    width: 50%;
+    padding: 5%;
+    background-color: antiquewhite;
+   
+}
+.main-text h1{
+    font-size: 60px;
+}
+.head-text span {
+    color: rgb(49, 2, 8);
+}
+.button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    border: 0;
+}
+.head-image{
+    width: 50%;
+    background-color: antiquewhite;
+   
+}
+.head-image img{
+    width: 100%;
+    justify-content: center;
+    padding-top: 5%;
+   
+}
+.main-image{
+    width: 50%;
+    background-color: antiquewhite;
+   
+}
+.main-image img{
+    width: 100%;
+    justify-content: center;
+    padding-top: 5%;
+   
+}
+.experence{
+    margin: 5%;
+    margin-top: 10%;
+    display: flex;
+}
+.box-shadow1{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 8px solid red ;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    box-shadow: 10px 2px 2xp;
+    background-color: cornflowerblue;
+
+
+}
+
+.box-shadow2{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 8px solid gray ;
+    background-repeat: no-repeat;
+    background-image: url(images/top-banner.png);
+    background-color: brown;
+    background-repeat: no-repeat;
+}
+
+    /* start midea  */
+    @media only  screen and (max-width:688px)  {
+        .head{
+            display: flex;
+            flex-direction: column-reverse;
+        }
+        .head-text{
+            width: 100%;
+        }
+        .head-image{
+            width: 100%;
+        }
+        .main{
+            display: block;
+        }
+        .main-image{
+            width: 100%;
+            margin-bottom: 0%;
+        }
+        .main-text{
+            width: 100%;
+            margin-top: 0;
+        }
+        .experence{
+            display: block;
+        }
+        .box-shadow1{
+            width: 100%;
+        }
+        .box-shadow2{
+            width: 100%;
+        }
+        
+    }
+
+
+
+
+
